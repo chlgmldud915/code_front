@@ -38,6 +38,7 @@ footer{
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  background-color: #FFF;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
@@ -49,32 +50,45 @@ footer{
 
 /* Carousel base class */
 #myCarousel{
-    margin-top: 50px;
     text-align: center;
-    color: #000000;
-/*    color: #ffffff;*/
-/*    background-image: url("backgroundPicture.png");*/
-}
-
-.background {
-	width : 100 %;
-	height : 0;
-	padding-top : calc (300 / 1000 * 100 %);
-	background : url (bg.png) center center / cover no-repeat;
+    color: #FFF;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    margin-top: 50px;
 }
 
 #mainTitle{
-    margin-top: 10%;
-    background-image: url("../images/bg.png");
+    padding-top: 40px;
 }
+
+/*인풋 그룹 Search code 부분전체 (검색전체를 그룹화시킨 클레스)*/
+.input-group{
+  margin-top: 30px;
+  margin-left: 25.5%;
+  width: 50%;
+  height: 30px;
+}
+
 #mainSearch{
-    margin-top: 20px;
-    width: 40%;
-    height: 35px;
+    height: 40px;
 }
+
+/*input중 서치옆에 붙어있는 이미지 크기조절*/
+#search_Img{
+    width: 21px; 
+    height: 21px;
+}
+
+
+/*검색옆에붙어있는 애드온 색깔설정*/
+#sizing-addon2{
+    background-color: #F9A825;
+}
+
 .thumbnail{
     width: 350px;
 }
+
 .carousel {
   height: 300px;
   margin-bottom: 60px;
