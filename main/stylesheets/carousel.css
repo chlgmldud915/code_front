@@ -55,8 +55,17 @@ footer{
 /*    color: #ffffff;*/
 /*    background-image: url("backgroundPicture.png");*/
 }
+
+.background {
+	width : 100 %;
+	height : 0;
+	padding-top : calc (300 / 1000 * 100 %);
+	background : url (bg.png) center center / cover no-repeat;
+}
+
 #mainTitle{
     margin-top: 10%;
+    background-image: url("../images/bg.png");
 }
 #mainSearch{
     margin-top: 20px;
